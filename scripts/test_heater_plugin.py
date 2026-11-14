@@ -58,5 +58,5 @@ print("power @24V  : %.2f W" % (24.0 ** 2 / resistance))
 net_names = {t.GetNetname() for t in tracks}
 print("net         :", net_names)
 layers = {t.GetLayerName() for t in tracks}
-print("layers      :", layers)
+print("layer       :", layers)
 print("RESULT: OK")
